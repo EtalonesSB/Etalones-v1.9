@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../bootstrap-5.3.1-dist/css/bootstrap.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" />
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+
+    <link rel="stylesheet" href="../css/style.css" />
+    <script
+      defer
+      src="../bootstrap-5.3.1-dist/js/bootstrap.bundle.min.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg bg-custom fixed-top"
+      data-bs-theme="dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../test.html"
+          ><img src="../img/Logo_single.svg" alt=""
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Переключатель навигации">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a
+                class="nav-link active link-light"
+                aria-current="page"
+                href="./index.html"
+                >Главная</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-light" href="./map.html">Карта</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-light" href="./job.html">Вакансии</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-light" href="./contacts.html">Контакты</a>
+            </li>
+          </ul>
+          <div class="d-flex navbar-nav">
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link link-light"
+                href="#"
+                role="button"
+                data-bs-toggle="modal"
+                data-bs-target="#callModal">
+                <i class="bi bi-telephone-fill"></i> Позвонить
+              </a>
+            </li>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div
+      class="modal fade"
+      id="callModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title fs-5" id="exampleModalLabel">
+              Заказать обратный звонок
+            </h4>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Закрыть"></button>
+          </div>
+          <div class="modal-body">
+            <div class="mb-3">
+              <label for="formGroupExampleInput" class="form-label"
+                >Укажите ваше имя</label
+              >
+              <input
+                type="text"
+                class="form-control"
+                id="formGroupExampleInput"
+                placeholder="Ваше имя" />
+            </div>
+            <div class="mb-3">
+              <label for="formGroupExampleInput2" class="form-label"
+                >Укажите номер телефона</label
+              >
+              <input
+                type="tel"
+                class="form-control"
+                id="formGroupExampleInput2"
+                placeholder="Телефон указаный в месседжерах" />
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal">
+              Закрыть
+            </button>
+            <button type="button" class="btn btn-primary">Отправить</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid p-0">
+      <img
+        class="w-100 background-image"
+        src="https://cdn.pixabay.com/photo/2018/05/11/09/05/finger-3389911_1280.jpg"
+        alt="" />
+    </div>
+    <section>
+      <h1 class="text-center">Как найти подходящую работу?</h1>
+      <p class="text-center fs-5 w-75 mx-auto">
+        Самый надежный способ найти подходящую работу — пройти собеседование с
+        одним из наших менеджеров или заполнить своё резюме на нашем сайте.
+      </p>
+     <div class="container ">
+  <div class="row justify-content-center gap-5">
+
+    <div class="col-md-3">
+<a href="./contacts.html" class="d-block text-center pb-3">Контакты менеджеров ></a>
+<img class="w-100 shadow-custom" src="../img/jobSearch/mid-shot-woman-talking-on-phone-at-table 1.png" alt="">
+    </div>
+
+    <div class="col-md-3 ">
+<a href="#" class="d-block text-center pb-3">Заполнить резюме ></a>
+<img class="w-100 shadow-custom" src="../img/jobSearch/woman-making-plans-to-renovate-the-house-using-laptop 1.png" alt="">
+    </div>
+
+  </div>
+</div>
+    </section>
+    <section>
+       <p class="text-center fs-5 w-75 mx-auto">
+        Если вам не подходит такой способ поиска, вы можете отслеживать новые вакансии в наших группах в социальных сетях.
+      </p> 
+      <div class="container text-center">
+ <div class="social_box mx-auto">
+      <ul class="">
+        <li><a class="d-block" href="#"><i class="bi bi-tiktok "></i></a></li>
+         <li><a class="d-block" href="#"><i class="bi bi-whatsapp "></i></a></li>
+         <li><a class="d-block" href="#"><i class="bi bi-facebook "></i></a></li>
+        <li><a class="d-block" href="#"><i class="bi bi-instagram "></i></a></li>
+        <div class="text mx-auto">&nbsp;&nbsp;&nbsp;Подписаться</div>
+      </ul>
+    </div>
+</div>
+    </section>
+  </body>
+</html>

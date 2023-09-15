@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../bootstrap-5.3.1-dist/css/bootstrap.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <script defer src="../js/email.js"></script>
+    <script defer src="../js/email1.js"></script>
+    <script defer src="../js/jquery.js"></script>
+    <script
+      defer
+      src="../bootstrap-5.3.1-dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="../bootstrap-5.3.1-dist/css/bootstrap.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <script defer src="../js/email.js"></script>
+    <script defer src="../js/email1.js"></script>
+    <script defer src="../js/jquery.js"></script>
+    <script
+      defer
+      src="../bootstrap-5.3.1-dist/js/bootstrap.bundle.min.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg bg-custom fixed-top"
+      data-bs-theme="dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../test.html"
+          ><img src="../img/Logo_single.svg" alt=""
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Переключатель навигации">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a
+                class="nav-link active link-light"
+                aria-current="page"
+                href="./index.html"
+                >Главная</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-light" href="./map.html">Карта</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-light" href="./job.html">Вакансии</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-light" href="./contacts.html">Контакты</a>
+            </li>
+          </ul>
+          <div class="d-flex navbar-nav">
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link link-light"
+                href="#"
+                role="button"
+                data-bs-toggle="modal"
+                data-bs-target="#callModal">
+                <i class="bi bi-telephone-fill"></i> Позвонить
+              </a>
+            </li>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div
+      class="modal fade"
+      id="callModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true">
+      <form id="form">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5">Заказать обратный звонов</h1>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Закрыть"></button>
+            </div>
+            <div class="modal-body">
+              <div class="mb-3">
+                <label for="person" class="form-label">Укажите ваше имя</label>
+                <input
+                  type="text"
+                  name="person"
+                  id="person"
+                  class="form-control"
+                  placeholder="Ваше имя" />
+              </div>
+              <div class="mb-3">
+                <label for="phone" class="form-label"
+                  >Укажите номер телефона</label
+                >
+                <input
+                  type="tel"
+                  name="phone"
+                  id="phone"
+                  class="form-control"
+                  placeholder="+37369460354"
+                  pattern="+[0-9]{3}-[0-9]{2}-[0-9]{2}-[0-9]{4}" />
+              </div>
+              <div class="mb-3">
+                <label for="profesion" class="form-label">Профессия</label>
+                <input
+                  type="text"
+                  name="profesion"
+                  id="profesion"
+                  class="form-control" />
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-bs-dismiss="modal">
+                Закрыть
+              </button>
+              <button
+                type="submit"
+                id="button"
+                value="Отправить"
+                class="btn btn-primary">
+                Отправить
+              </button>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <main>
+      <div id="preview" class="preview">
+        <div style="display: none"></div>
+        <div>
+          <div data-draggable="true" class="" style="position: relative">
+            <!----><!---->
+            <section
+              draggable="false"
+              class="container pt-5"
+              data-v-271253ee="">
+              <section class="mb-10">
+                <style>
+                  .rounded-t-5 {
+                    border-top-left-radius: 0.5rem;
+                    border-top-right-radius: 0.5rem;
+                  }
+                  @media (min-width: 992px) {
+                    .rounded-tr-lg-0 {
+                      border-top-right-radius: 0;
+                    }
+                    .rounded-bl-lg-5 {
+                      border-bottom-left-radius: 0.5rem;
+                    }
+                  }
+                </style>
+                <div class="card mb-3">
+                  <div class="row g-0 d-flex align-items-center">
+                    <div class="col-lg-6 col-xl-4 d-none d-lg-flex">
+                      <img
+                        src="../img/accompaniment/rail.jpg"
+                        alt="Trendy Pants and Shoes"
+                        class="w-100 rounded-t-5 rounded-tr-lg-0 rounded-bl-lg-5 "
+                        aria-controls="#picker-editor" />
+                    </div>
+                    <div class="col-lg-6 col-xl-8">
+                      <div class="card-body px-4 py-5 px-md-5">
+                        <h2 class="fw-bold mb-5">
+                          "Строители, добро пожаловать в Etalones S&B: Вместе К
+                          Яркому Будущему"
+                        </h2>
+                        
+                        <p class="text-muted mb-4">
+                          Если вы строительный специалист и рассматриваете
+                          возможность работы в странах Евросоюза, Etalones S&B
+                          готовы быть вашим надежным партнером. Мы понимаем, что
+                          переезд и поиск работы за границей могут быть вызовом,
+                          и мы здесь, чтобы предоставить вам необходимую
+                          поддержку в любых сложных ситуациях. <1.
+                          class="mb-4">1. Строительство вашего будущего: наши
+                          руки всегда протянуты Мы верим, что каждый строитель
+                          может самостоятельно влиять на свое будущее. Поэтому,
+                          хотя мы предоставляем поддержку и консультации, мы
+                          также вдохновляем вас действовать самостоятельно. Если
+                          возникнут трудности с бронированием билетов на поезды
+                          или авиарейсы, не стесняйтесь обратиться к нам.
+                        </p>
+                        <p class="mb-4">
+                          2. Помощь, когда это действительно нужно: мы всегда на
+                          связи Etalones S&B готовы прийти на помощь, когда у
+                          вас возникнут трудности. Наши специалисты доступны для
+                          вас 24/7, чтобы ответить на ваши вопросы и помочь в
+                          сложных ситуациях. Мы знаем, что переезд и поиск жилья
+                          могут быть вызовом, и мы здесь, чтобы поддержать вас.
+                        </p>
+                        <p>
+                          3. Вместе к успеху: ваша карьера в строительстве
+                          начинается с Etalones S&B Etalones S&B не только
+                          предоставляют услуги по бронированию билетов и
+                          сопровождению, но и вдохновляют строителей добиваться
+                          успеха. Мы верим в вас и в ваш потенциал. Наша цель -
+                          помочь вам в поиске работы и создать условия для
+                          успешной карьеры в строительстве. Свяжитесь с нами
+                          сегодня, и давайте начнем вместе строить яркое
+                          будущее.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </section>
+            <!---->
+          </div>
+          <div data-draggable="true" class="" style="position: relative">
+            <!----><!---->
+            <section
+              draggable="false"
+              class="container pt-5"
+              data-v-271253ee="">
+              <section class="mb-10 text-center text-lg-start ">
+                <style>
+                  .cascading-right {
+                    margin-right: -50px;
+                  }
+                  @media (max-width: 991.98px) {
+                    .cascading-right {
+                      margin-right: 0;
+                    }
+                  }
+                </style>
+                <!-- Jumbotron -->
+                <div class="container py-4 ">
+                  <div class="row g-0 align-items-center">
+                    <div class="col-lg-6 mb-5 mb-lg-0">
+                      <div
+                        class="card cascading-right"
+                        style="
+                          background: hsla(0, 0%, 100%, 0.55);
+                          backdrop-filter: blur(30px);
+                        ">
+                        <div class="card-body py-5 px-md-5 shadow-5">
+                          <h2 class="fw-bold mb-4">
+                            24/7 Поддержка для Строителей
+                          </h2>
+                          <p class="text-muted mb-4">
+                            Работа строителем может быть непредсказуемой, и
+                            нередко возникают ситуации, требующие срочного
+                            решения. В Etalones S&B мы понимаем ваши потребности
+                            и готовы оказать поддержку 24/7, чтобы вы
+                            чувствовали себя уверенно в любой ситуации.
+                          </p>
+                          <div class="row mb-3">
+                            <div class="col-lg-4">
+                              <p>1. <span>Круглосуточная поддержка</span></p>
+                            </div>
+                            <div class="col-lg-4">
+                              <p>
+                                2.
+                                <span>Решение проблем в реальном времени</span>
+                              </p>
+                            </div>
+                            <div class="col-lg-4">
+                              <p>
+                                3. <span>Наши специалисты - ваша команда</span>
+                              </p>
+                            </div>
+                          </div>
+                          <p class="text-muted mb-3">
+                            Когда вы работаете с Etalones S&B, вы получаете
+                            доступ к команде специалистов, готовых помочь вам
+                            круглосуточно. Наши эксперты готовы ответить на ваши
+                            вопросы, предоставить необходимую информацию и
+                            помочь в сложных ситуациях в любое время суток. Будь
+                            то вопрос о маршрутах, оформлении документов или
+                            любая другая потребность - мы всегда здесь для вас.
+                          </p>
+                          <p class="text-muted mb-3">
+                            Etalones S&B ценит ваше время и комфорт. Мы
+                            гарантируем быстрое и эффективное решение проблем,
+                            которые могут возникнуть во время вашей работы за
+                            границей. Независимо от того, где вы находитесь и в
+                            какое время суток, вы можете полагаться на нашу
+                            поддержку.
+                          </p>
+                          <p class="text-muted mb-0">
+                            Работая с Etalones S&B, вы получаете не просто
+                            услуги, а команду, готовую стать вашими надежными
+                            партнерами. Мы делаем все возможное, чтобы ваш опыт
+                            работы за границей был успешным и комфортным. Наша
+                            цель - обеспечить вас всей необходимой информацией и
+                            решить любые трудности, которые могут возникнуть.
+
+                            <br />&nbsp;&nbsp;С Etalones S&B вы не останетесь
+                            один на один с проблемами. Мы всегда рядом, чтобы
+                            помочь вам в любой момент и обеспечить вашу
+                            уверенность и успех в работе. Свяжитесь с нами
+                            сегодня, и давайте вместе строить вашу успешную
+                            карьеру в строительстве.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-6 mb-5 mb-lg-0 ">
+                      <img
+                        src="../img/accompaniment/annie-spratt.jpg"
+                        class="w-100 rounded-4 shadow-4"
+                        alt=""
+                        aria-controls="#picker-editor" />
+                    </div>
+                  </div>
+                </div>
+                <!-- Jumbotron -->
+              </section>
+            </section>
+            <!---->
+          </div>
+          <div data-draggable="true" class="" style="position: relative">
+            <!----><!---->
+            <section
+              draggable="false"
+              class="container pt-5"
+              data-v-271253ee="">
+              <section class="mb-10 text-center text-lg-start">
+                <style>
+                  .cascading-left {
+                    margin-right: -50px;
+                  }
+                  @media (max-width: 991.98px) {
+                    .cascading-left {
+                      margin-right: 0;
+                    }
+                  }
+                </style>
+                <!-- Jumbotron -->
+                <div class="container py-4">
+                  <div class="row g-0 align-items-center">
+                    <div class="col-lg-6 mb-5 mb-lg-0 cascading-left">
+                      <img
+                        src="../img/accompaniment/Cc1GhnpBG4o.jpg"
+                        class="w-100 rounded-4 shadow-4"
+                        alt=""
+                        aria-controls="#picker-editor" />
+                    </div>
+                    <div class="col-lg-6 mb-5 mb-lg-0">
+                      <div
+                        class="card"
+                        style="
+                          background: hsla(0, 0%, 100%, 0.55);
+                          backdrop-filter: blur(30px);
+                        ">
+                        <div class="card-body py-5 px-md-5 shadow-5">
+                          <h2 class="fw-bold mb-4">
+                            Etalones S&B: Ваш Старт в Строительстве без Границ
+                          </h2>
+                          <p class="text-muted mb-4">
+                            Вы мечтаете о карьере в строительстве, но не знаете,
+                            с чего начать? Etalones S&B предлагает уникальные
+                            возможности для тех, кто хочет начать строить свое
+                            будущее в этой индустрии, не ограничиваясь
+                            границами.
+                          </p>
+                          <p class="text-muted mb-4">
+                            <span class="fw-bold"
+                              >1. Первые Шаги в Мире Строительства: Мы Поможем
+                              вам Начать</span
+                            >
+                            <br />
+
+                            В Etalones S&B мы верим в ваш потенциал и готовы
+                            поддержать вас на начальном этапе вашей карьеры. Мы
+                            предоставляем возможности для строителей, которые
+                            хотят работать в странах Евросоюза. Ваш путь
+                            начинается с нами, и мы готовы помочь вам сделать
+                            первые шаги.
+                          </p>
+                          <p class="text-muted mb-4">
+                            <span class="fw-bold"
+                              >2. Разнообразие Вакансий: Найдите Свою
+                              Сферу</span
+                            >
+                            <br />
+                            Строительство - это индустрия с множеством
+                            возможностей. В Etalones S&B мы предоставляем доступ
+                            к разнообразным вакансиям, от строительства зданий и
+                            дорог до специализированных проектов. Независимо от
+                            вашего опыта и интересов, вы найдете подходящую для
+                            себя сферу деятельности.
+                          </p>
+                          <p class="text-muted mb-4">
+                            <span class="fw-bold"
+                              >3. Поддержка в Поиске Работы: Мы Рядом, Чтобы
+                              Помочь</span
+                            >
+                            <br />
+                            Etalones S&B не просто предоставляют вакансии - мы
+                            также помогаем вам с поиском работы и оформлением
+                            документов. Наши специалисты готовы ответить на ваши
+                            вопросы, предоставить информацию о требованиях и
+                            условиях работы. Мы здесь, чтобы облегчить ваш путь
+                            к успешной карьере в строительстве.
+                          </p>
+                          <p class="text-muted mb-4">
+                            <span class="fw-bold"
+                              >4. Строим Будущее Вместе: Присоединяйтесь к
+                              Etalones S&B</span
+                            >
+                            <br />
+                            Etalones S&B - это больше, чем просто работа. Это
+                            возможность создать свое будущее в индустрии
+                            строительства, не ограничиваясь границами.
+                            Присоединяйтесь к нам, и давайте вместе строить
+                            яркое и успешное будущее в мире строительства.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Jumbotron -->
+              </section>
+            </section>
+            <!---->
+          </div>
+        </div>
+      </div>
+    </main>
+    <div class="container-fluid text-bg-dark">
+      <footer class="py-3 my-4">
+        <ul
+          class="nav justify-content-center border-bottom pb-3 mb-3"
+          data-bs-theme="dark">
+          <img src="../img/Logo_single.svg" alt="logo" />
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-body-secondary">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-body-secondary">Features</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-body-secondary">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-body-secondary">FAQs</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-body-secondary">About</a>
+          </li>
+        </ul>
+        <p class="text-center text-body-light">&copy; 2023 Etalones S&B</p>
+      </footer>
+    </div>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+    <script type="text/javascript">
+      emailjs.init("2ZIyu-7ULfWbAXi5w");
+    </script>
+  </body>
+</html>

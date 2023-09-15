@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../bootstrap-5.3.1-dist/css/bootstrap.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" />
+
+    <link rel="stylesheet" href="../css/style.css" />
+    <script
+      defer
+      src="../bootstrap-5.3.1-dist/js/bootstrap.bundle.min.js"></script>
+    <title>Documents</title>
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg bg-custom fixed-top"
+      data-bs-theme="dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../test.html"
+          ><img src="../img/Logo_single.svg" alt=""
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Переключатель навигации">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a
+                class="nav-link active link-light"
+                aria-current="page"
+                href="./index.html"
+                >Главная</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-light" href="./map.html">Карта</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-light" href="./job.html">Вакансии</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-light" href="./contacts.html">Контакты</a>
+            </li>
+          </ul>
+          <div class="d-flex navbar-nav">
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link link-light"
+                href="#"
+                role="button"
+                data-bs-toggle="modal"
+                data-bs-target="#callModal">
+                <i class="bi bi-telephone-fill"></i> Позвонить
+              </a>
+            </li>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div
+      class="modal fade"
+      id="callModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title fs-5" id="exampleModalLabel">
+              Заказать обратный звонок
+            </h4>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Закрыть"></button>
+          </div>
+          <div class="modal-body">
+            <div class="mb-3">
+              <label for="formGroupExampleInput" class="form-label"
+                >Укажите ваше имя</label
+              >
+              <input
+                type="text"
+                class="form-control"
+                id="formGroupExampleInput"
+                placeholder="Ваше имя" />
+            </div>
+            <div class="mb-3">
+              <label for="formGroupExampleInput2" class="form-label"
+                >Укажите номер телефона</label
+              >
+              <input
+                type="tel"
+                class="form-control"
+                id="formGroupExampleInput2"
+                placeholder="Телефон указаный в месседжерах" />
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal">
+              Закрыть
+            </button>
+            <button type="button" class="btn btn-primary">Отправить</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="preview" class="preview">
+      <div style="display: none"></div>
+      <div>
+        <div data-draggable="true" style="position: relative">
+          <!----><!---->
+          <section
+            draggable="false"
+            class="overflow-hidden pt-0"
+            data-v-271253ee="">
+            <section class="mb-1 overflow-hidden">
+              <!-- Background image -->
+              <div
+                class="px-4 py-5 px-md-5 text-center bg-image"
+                style="
+                  background-image: url('https://cdn.pixabay.com/photo/2018/02/10/11/43/hexagons-3143432_1280.jpg');
+                  height: 500px;
+                  background-size: cover;
+                  background-position: 50% 50%;
+                "
+                aria-controls="#picker-editor">
+                <div
+                  class="mask-custom"
+                  style="
+                    background-color: rgba(0, 0, 0, 0.7);
+                    border-radius: 25px;
+                  ">
+                  <div class="container h-100">
+                    <div
+                      class="row d-flex justify-content-center align-items-center h-100">
+                      <div class="col-lg-10">
+                        <div class="text-white pb-5">
+                          <h1
+                            class="my-md-5 mt-5 mb-4 px-5 display-3 fw-bold ls-tight">
+                            <span>Работа </span> <br />
+                            <span class="">в Евросоюзе&nbsp;</span>
+                          </h1>
+                          <a
+                            class="btn btn-outline-light btn-lg btn-rounded py-3 px-5 mb-2 mb-md-0 me-md-2"
+                            href="#!"
+                            role="button"
+                            aria-controls="#picker-editor"
+                            >Позвонить</a
+                          >
+                          <a
+                            class="btn btn-link btn-lg btn-rounded py-3 px-5 mb-2 mb-md-0 text-white"
+                            style="background-color: transparent"
+                            href="#!"
+                            role="button"
+                            aria-controls="#picker-editor"
+                            >Заполнить анкету</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class=""
+                style="
+                  height: 30px;
+                  margin-top: -30px;
+                  transform: scale(2);
+                  transform-origin: top center;
+                  color: #fff;
+                ">
+                <svg viewBox="0 0 2880 48" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M 0 48 L 1437.5 48 L 2880 48 L 2880 0 L 2160 0 C 1453.324 60.118 726.013 4.51 720 0 L 0 0 L 0 48 Z"
+                    fill="currentColor"></path>
+                </svg>
+              </div>
+              <!-- Background image -->
+            </section>
+          </section>
+          <!---->
+        </div>
+        <div data-draggable="true" style="position: relative">
+          <!----><!---->
+          <section draggable="false" class="container pt-5" data-v-271253ee="">
+            <section class="mb-5">
+              <h2 class="fw-bold mb-5 text-center">Что мы предоставляем?</h2>
+              <div class="row gx-lg-5 mb-5 align-items-center">
+                <div class="col-md-6 mb-4 mb-md-0">
+                  <img
+                    src="https://cdn.pixabay.com/photo/2015/07/17/22/42/startup-849804_1280.jpg"
+                    class="w-100 shadow-4-strong rounded-4 mb-4"
+                    alt=""
+                    aria-controls="#picker-editor" />
+                </div>
+                <div class="col-md-6">
+                  <h2 class="text-body-emphasis">Услуги</h2>
+                  <p>
+                    Работа за границей - это серьезный и важный этап в жизни. С
+                    правильной поддержкой от наших опытных специалистов, вы
+                    сможете сделать этот шаг уверенно и официально.
+                  </p>
+                  <ul class="list-unstyled ps-0">
+                    <div class="flex-column">
+                      <li class="d-flex align-items-center text-primary">
+                        <i class="bi bi-check-circle"></i>
+                        &nbsp;
+                        <p
+                          class="text-decoration-underline mb-1 accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse1"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse1">
+                          Профессиональные информационно-консультационные
+                          услуги.
+                        </p>
+                      </li>
+                      <div
+                        id="flush-collapse1"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="flush-heading1"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                          <div class="rounded-4 shadow">
+                            <div class="p-3">чтото указать</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <li class="d-flex align-items-center text-primary">
+                      <i class="bi bi-check-circle"></i>
+                      &nbsp;
+                      <p class="text-decoration-underline mb-1">
+                        Индивидуальный подбор подходящей вакансии.
+                      </p>
+                    </li>
+                    <li class="d-flex align-items-center text-primary">
+                      <i class="bi bi-check-circle"></i>
+                      &nbsp;
+                      <p class="text-decoration-underline mb-1">
+                        Бронирование рабочих мест по вашему выбору.
+                      </p>
+                    </li>
+                    <li class="d-flex align-items-center text-primary">
+                      <i class="bi bi-check-circle"></i>
+                      &nbsp;
+                      <p class="text-decoration-underline mb-1">
+                        Организация и сопровождение вас в путешествии к месту
+                        работы или в оформлении документов.
+                      </p>
+                    </li>
+                    <li class="d-flex align-items-center text-muted">
+                      <i class="bi bi-check-circle"></i>
+                      &nbsp;
+                      <p class="text-decoration-underline mb-1">
+                        Назначение польского координатора для вашей поддержки.
+                      </p>
+                    </li>
+                    <li class="d-flex align-items-center text-primary">
+                      <i class="bi bi-check-circle"></i>
+                      &nbsp;
+                      <p class="text-decoration-underline mb-1">
+                        Оформление и оплата официального приглашения для работы
+                        в Польше.
+                      </p>
+                    </li>
+                    <li class="d-flex align-items-center text-primary">
+                      <i class="bi bi-check-circle"></i>
+                      &nbsp;
+                      <p class="text-decoration-underline mb-1">
+                        Бронирование временного или постоянного жилья.
+                      </p>
+                    </li>
+                    <li class="d-flex align-items-center text-primary">
+                      <i class="bi bi-check-circle"></i>
+                      &nbsp;
+                      <p class="text-decoration-underline mb-1">
+                        Содействие в решении любых вопросов, связанных с жизнью
+                        и работой в Польше.
+                      </p>
+                    </li>
+                    <li class="d-flex align-items-center text-primary">
+                      <i class="bi bi-check-circle"></i>
+                      &nbsp;
+                      <p class="text-decoration-underline mb-1">
+                        Круглосуточная поддержка менеджеров в любое время, 365
+                        дней в году.
+                      </p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div
+                class="row gx-lg-5 mb-5 flex-lg-row-reverse align-items-center">
+                <div class="col-md-6 mb-4 mb-md-0">
+                  <img
+                    src="https://cdn.pixabay.com/photo/2017/06/09/22/56/lady-justice-2388500_1280.jpg"
+                    class="w-100 shadow-4-strong rounded-4 mb-4"
+                    alt=""
+                    aria-controls="#picker-editor" />
+                </div>
+                <div class="col-md-6 mb-4 mb-md-0">
+                  <h3 class="fw-bold">
+                    Легальное Трудоустройство за Границей: Гарантии и
+                    Перспективы
+                  </h3>
+                  <div class="mb-2 text-primary small"></div>
+                  <p class="text-muted">
+                    Законное оформление зарубежного трудоустройства обеспечивает
+                    вам уверенность в том, что вы защищены от недобросовестных
+                    работодателей, получите свою заработную плату и необходимую
+                    медицинскую помощь при необходимости. Это также единственный
+                    способ избежать депортации и запрета на въезд в Шенгенскую
+                    зону. После депортации получение визы становится практически
+                    невозможным.
+                  </p>
+                </div>
+              </div>
+              <div class="row gx-lg-5 mb-5 align-items-center">
+                <div class="col-md-6 mb-4 mb-md-0">
+                  <img
+                    src="https://cdn.pixabay.com/photo/2018/03/03/20/02/laptop-3196481_1280.jpg"
+                    class="w-100 shadow-4-strong rounded-4 mb-4"
+                    alt=""
+                    aria-controls="#picker-editor" />
+                </div>
+                <div class="col-md-6 mb-4 mb-md-0">
+                  <h3 class="fw-bold">
+                    Наши услуги охватывают широкий спектр:
+                  </h3>
+
+                  <ul class="list-unstyled ps-0">
+                    <div class="flex-column">
+                      <li class="d-flex align-items-center text-primary">
+                        <i class="bi bi-check-circle"></i>
+                        &nbsp;
+                        <p
+                          class="text-decoration-underline mb-1 accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapse1"
+                          aria-expanded="false"
+                          aria-controls="flush-collapse1">
+                          Профессиональные информационно-консультационные
+                          услуги.
+                        </p>
+                      </li>
+                      <div
+                        id="flush-collapse1"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="flush-heading1"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                          <div class="rounded-4 shadow">
+                            <div class="p-3"></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <li class="d-flex align-items-center text-primary">
+                      <i class="bi bi-check-circle"></i>
+                      &nbsp;
+                      <p class="text-decoration-underline mb-1">
+                        Медицинское страхование.
+                      </p>
+                    </li>
+                    <li class="d-flex align-items-center text-primary">
+                      <i class="bi bi-check-circle"></i>
+                      &nbsp;
+                      <p class="text-decoration-underline mb-1">
+                        Официальное трудоустройство в странах Европейского
+                        Союза.
+                      </p>
+                    </li>
+                    <li class="d-flex align-items-center text-primary">
+                      <i class="bi bi-check-circle"></i>
+                      &nbsp;
+                      <p class="text-decoration-underline mb-1">
+                        Легализация трудоустройства за границей
+                      </p>
+                    </li>
+                    <li class="d-flex align-items-center text-primary">
+                      <i class="bi bi-check-circle"></i>
+                      &nbsp;
+                      <p class="text-decoration-underline mb-1">
+                        Проверка и рекомендации по всем заказчикам
+                      </p>
+                    </li>
+                    <li class="d-flex align-items-center text-primary">
+                      <i class="bi bi-check-circle"></i>
+                      &nbsp;
+                      <p class="text-decoration-underline mb-1">
+                        Помощь в оформлении приглашений на работу
+                      </p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </section>
+          </section>
+          <!---->
+        </div>
+        <div data-draggable="true" style="position: relative">
+          <!----><!---->
+          <section draggable="false" class="container pt-5" data-v-271253ee="">
+            <section class="mb-1">
+              <style>
+                @media (min-width: 992px) {
+                  #cta-img-nml-50 {
+                    margin-left: 50px;
+                  }
+                }
+              </style>
+              <div class="row gx-0">
+                <div class="col-lg-5 mb-4 mb-md-0">
+                  <div class="d-flex py-md-5">
+                    <img
+                      src="https://cdn.pixabay.com/photo/2017/08/18/00/40/successful-2653403_1280.jpg"
+                      class="w-100 rounded-5 shadow-3-strong"
+                      id="cta-img-nml-50"
+                      style="z-index: 10"
+                      alt=""
+                      aria-controls="#picker-editor" />
+                  </div>
+                </div>
+                <div class="col-lg-7 mb-4 mb-md-0">
+                  <div
+                    class="bg-success h-100 rounded-6 p-4 ps-lg-5 text-white d-flex align-items-center">
+                    <div class="ps-lg-5">
+                      <h3 class="fw-bold mb-4">
+                        Качественное Трудоустройство за Границей с Etalones S&B
+                      </h3>
+                      <p class="">
+                        В поиске лучшей возможности для работы за границей?
+                        Тогда вы на правильном пути. Строительная фирма Etalones S&B предлагает профессиональную консультацию и
+                        поддержку для тех, кто стремится устроиться на работу за
+                        границей. Наша команда менеджеров готова помочь вам
+                        каждым шагом на пути к успешному трудоустройству.
+                      </p>
+                      <div class="row mb-2 fw-bold">
+                       
+                          <p>
+                           Почему трудоустройство за границей с Etalones S&B - это правильный выбор? 
+                          </p>
+                        
+                     
+                      </div>
+                      <p>
+1. Индивидуальный подход: Мы подберем для вас наилучшую вакансию.<br>
+2. Гарантированное трудоустройство: Ваш статус будет законным.<br>
+3. Поиск вакансий: Лучшие предложения от проверенных заказчиков.<br>
+4. Профессиональная помощь: Поддержка для всех уровней опыта.<br>
+5. Качественный сервис: Оперативное решение всех вопросов.<br>
+6. Содействие при трудоустройстве: Помощь в оформлении документов и проверке заказчиков.<br>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </section>
+          <!---->
+        </div>
+        <div data-draggable="true" style="position: relative">
+          <!----><!---->
+          <section draggable="false" class="container pt-5" data-v-271253ee="">
+            <section class="mb-10 text-center text-lg-start">
+              <div class="px-4 py-5 px-md-5">
+                <div class="row gx-lg-5 align-items-center">
+                  <div class="col-lg-6 mb-5 mb-lg-0">
+                    <h3 class="my-5 display-5 fw-bold ls-tight">
+                      <span>Готовы сделать</span> <br />
+                      <span class="text-primary">первый шаг?</span>
+                    </h3>
+                    <a
+                      class="btn btn-success btn-lg py-3 px-5 mb-2 me-2"
+                      href="#"
+                      role="button"
+                      aria-controls="#picker-editor"
+                      >Позвонить</a
+                    >
+                    <a
+                      class="btn btn-link text-success btn-lg py-3 px-5 mb-2 me-2"
+                      data-ripple-color="success"
+                      href="#"
+                      role="button"
+                      aria-controls="#picker-editor"
+                      >Заполнить анкету</a
+                    >
+                  </div>
+                  <div class="col-lg-6 mb-5 mb-lg-0">
+                    <img
+                      src="https://cdn.pixabay.com/photo/2018/05/06/15/48/city-3378773_1280.jpg"
+                      class="w-100 rounded-4 shadow-5"
+                      alt=""
+                      aria-controls="#picker-editor" />
+                  </div>
+                </div>
+              </div>
+            </section>
+          </section>
+          <!---->
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid text-bg-dark">
+  <footer class="py-3 my-4" >
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3" data-bs-theme="dark">
+      <img src="../img/Logo_single.svg" alt="logo">
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
+    </ul>
+    <p class="text-center text-body-light">&copy; 2023 Etalones S&B</p>
+  </footer>
+</div>
+  </body>
+</html>
