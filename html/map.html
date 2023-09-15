@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../bootstrap-5.3.1-dist/css/bootstrap.css" />
     <link
       rel="stylesheet"
@@ -13,11 +13,9 @@
       src="../bootstrap-5.3.1-dist/js/bootstrap.bundle.min.js"></script>
 
     <title>Map</title>
-</head>
-<body>
-       <nav
-      class="navbar navbar-expand-lg bg-custom "
-      data-bs-theme="dark">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-custom" data-bs-theme="dark">
       <div class="container-fluid">
         <a class="navbar-brand" href="../test.html"
           ><img src="../img/Logo_single.svg" alt=""
@@ -35,7 +33,10 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mx-auto">
             <li class="nav-item">
-              <a class="nav-link active link-light" aria-current="page" href="./index.html"
+              <a
+                class="nav-link active link-light"
+                aria-current="page"
+                href="./index.html"
                 >Главная</a
               >
             </li>
@@ -64,7 +65,7 @@
         </div>
       </div>
     </nav>
-      <div
+    <div
       class="modal fade"
       id="callModal"
       tabindex="-1"
@@ -116,21 +117,43 @@
         </div>
       </div>
     </div>
-    <div class=" ratio ratio-1x1 "> 
-    <iframe  src="https://www.google.com/maps/d/embed?mid=18DUWfpwCyMxpXaMNNTEYxAL590YjXHA&ehbc=2E312F" width="100%" height="100%"></iframe>
-  </div>
-  <div class="container-fluid text-bg-dark 0">
-  <footer class="py-3 " >
-    <ul class="nav justify-content-center border-bottom pb-3 mb-3" data-bs-theme="dark">
-      <img src="../img/Logo_single.svg" alt="logo">
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
-    </ul>
-    <p class="text-center text-body-light">&copy; 2023 Etalones S&B</p>
-  </footer>
-</div>
-</body>
+    <div class="ratio ratio-1x1">
+      <iframe
+        src="https://www.google.com/maps/d/embed?mid=18DUWfpwCyMxpXaMNNTEYxAL590YjXHA&ehbc=2E312F"
+        width="100%"
+        height="100%"></iframe>
+    </div>
+    <div class="container-fluid text-bg-dark 0">
+      <footer class="py-3">
+        <ul
+          class="nav justify-content-center border-bottom pb-3 mb-3"
+          data-bs-theme="dark">
+          <img src="../img/Logo_single.svg" alt="logo" />
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-body-secondary">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-body-secondary">Features</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-body-secondary">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-body-secondary">FAQs</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-body-secondary">About</a>
+          </li>
+        </ul>
+        <p class="text-center text-body-light">&copy; 2023 Etalones S&B</p>
+      </footer>
+    </div>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+    <script type="text/javascript">
+      emailjs.init("2ZIyu-7ULfWbAXi5w");
+    </script>
+  </body>
 </html>
