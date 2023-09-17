@@ -1,4 +1,4 @@
-const btn = document.getElementById("button");
+const btn = document.getElementById("button-submit");
 const form = document.getElementById("form");
 const anketWrapper = document.getElementById("callModal");
 

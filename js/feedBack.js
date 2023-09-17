@@ -1,5 +1,5 @@
 const password = document.getElementById("password");
-const form = document.getElementById("form");
+const form1 = document.getElementById("form1");
 const msg = document.getElementById("msg");
 
 // Function to validate password
@@ -25,7 +25,7 @@ const formValidate = (inputPassword) => {
 };
 
 //triggers when user submits the form
-form.addEventListener("submit", (e) => {
+form1.addEventListener("submit", (e) => {
   e.preventDefault();
   formValidate(password);
 });
